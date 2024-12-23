@@ -72,3 +72,21 @@ docker login
 docker tag id/python313-tt
 docker push id/python313-tt
 docker run python313-tt
+
+
+
+push:
+mkdir git
+cd git
+echo "hello" >> file.txt
+git config -l
+git init
+git add file.txt
+git commit -m"initial commit"
+git log
+git remote add test (link)
+git remote add (link name)
+git branch -M main
+git push -u (link name) main
+git status
+git pull
